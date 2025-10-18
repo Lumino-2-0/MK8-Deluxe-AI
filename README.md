@@ -1,5 +1,5 @@
 # MK8 AI
-
+## THIS PROJECT IS NOT FINISHED!
 MK8 AI is a hybrid machine learning project that teaches an AI to play *Mario Kart 8 Deluxe* on the Yuzu emulator.
 
 ---
