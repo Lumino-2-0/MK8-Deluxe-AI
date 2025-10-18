@@ -1,0 +1,56 @@
+Name: FaceAnim_ftp
+Path: 
+Loop: false
+FrameCount: 10
+MaterialAnimConfigs:
+  - Name: m_Eye
+    TexturePatternInfos:
+      - Name: _a0
+        IsConstant: false
+        ConstantValue: null
+        CurveData:
+          KeyFrames:
+            0: YoshiEye_Alb.0
+            1: YoshiEye_Alb.1
+            2: YoshiEye_Alb.2
+            3: YoshiEye_Alb.3
+            4: YoshiEye_Alb.4
+            5: YoshiEye_Alb.5
+            6: YoshiEye_Alb.6
+            7: YoshiEye_Alb.7
+            8: YoshiEye_Alb.8
+            9: YoshiEye_Alb.9
+            10: YoshiEye_Alb.8
+      - Name: _n0
+        IsConstant: false
+        ConstantValue: null
+        CurveData:
+          KeyFrames:
+            0: YoshiEye_Nrm.0
+            1: YoshiEye_Nrm.1
+            2: YoshiEye_Nrm.2
+            3: YoshiEye_Nrm.3
+            4: YoshiEye_Nrm.4
+            5: YoshiEye_Nrm.5
+            6: YoshiEye_Nrm.6
+            7: YoshiEye_Nrm.7
+            8: YoshiEye_Nrm.8
+            9: YoshiEye_Nrm.9
+            10: YoshiEye_Nrm.8
+      - Name: _s0
+        IsConstant: false
+        ConstantValue: null
+        CurveData:
+          KeyFrames:
+            0: YoshiEye_Spm.0
+            1: YoshiEye_Spm.1
+            2: YoshiEye_Spm.2
+            3: YoshiEye_Spm.3
+            4: YoshiEye_Spm.4
+            5: YoshiEye_Spm.5
+            6: YoshiEye_Spm.6
+            7: YoshiEye_Spm.7
+            8: YoshiEye_Spm.8
+            9: YoshiEye_Spm.9
+            10: YoshiEye_Spm.8
+    ParamInfos: []

@@ -1,0 +1,38 @@
+Name: KartChoice_ftp
+Path: 
+Loop: false
+FrameCount: 60
+MaterialAnimConfigs:
+  - Name: m_Eye
+    TexturePatternInfos:
+      - Name: _a0
+        IsConstant: false
+        ConstantValue: null
+        CurveData:
+          KeyFrames:
+            0: YoshiEye_Alb.0
+            25: YoshiEye_Alb.1
+            27: YoshiEye_Alb.2
+            29: YoshiEye_Alb.1
+            31: YoshiEye_Alb.4
+      - Name: _n0
+        IsConstant: false
+        ConstantValue: null
+        CurveData:
+          KeyFrames:
+            0: YoshiEye_Nrm.0
+            25: YoshiEye_Nrm.1
+            27: YoshiEye_Nrm.2
+            29: YoshiEye_Nrm.1
+            31: YoshiEye_Nrm.4
+      - Name: _s0
+        IsConstant: false
+        ConstantValue: null
+        CurveData:
+          KeyFrames:
+            0: YoshiEye_Spm.0
+            25: YoshiEye_Spm.1
+            27: YoshiEye_Spm.2
+            29: YoshiEye_Spm.1
+            31: YoshiEye_Spm.4
+    ParamInfos: []

@@ -1,0 +1,43 @@
+Name: FaceAnimPupil_ftp
+Path: 
+Loop: false
+FrameCount: 10
+MaterialAnimConfigs:
+  - Name: m_PupilL
+    TexturePatternInfos:
+      - Name: _a1
+        IsConstant: false
+        ConstantValue: null
+        CurveData:
+          KeyFrames:
+            0: YoshiEye_Alb.0
+            1: YoshiEye_Alb.1
+            2: YoshiEye_Alb.2
+            3: YoshiEye_Alb.3
+            4: YoshiEye_Alb.4
+            5: YoshiEye_Alb.5
+            6: YoshiEye_Alb.6
+            7: YoshiEye_Alb.7
+            8: YoshiEye_Alb.8
+            9: YoshiEye_Alb.9
+            10: YoshiEye_Alb.8
+    ParamInfos: []
+  - Name: m_PupilR
+    TexturePatternInfos:
+      - Name: _a1
+        IsConstant: false
+        ConstantValue: null
+        CurveData:
+          KeyFrames:
+            0: YoshiEye_Alb.0
+            1: YoshiEye_Alb.1
+            2: YoshiEye_Alb.2
+            3: YoshiEye_Alb.3
+            4: YoshiEye_Alb.4
+            5: YoshiEye_Alb.5
+            6: YoshiEye_Alb.6
+            7: YoshiEye_Alb.7
+            8: YoshiEye_Alb.8
+            9: YoshiEye_Alb.9
+            10: YoshiEye_Alb.8
+    ParamInfos: []

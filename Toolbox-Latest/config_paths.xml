@@ -1,0 +1,25 @@
+<TOOLCONFIG>
+  <PATHS>
+    <SmoGamePath>
+    </SmoGamePath>
+    <Mk8GamePath>
+    </Mk8GamePath>
+    <Mk8dGamePath>C:\SWITCH_OS</Mk8dGamePath>
+    <TpGamePath>
+    </TpGamePath>
+    <BotwGamePath>
+    </BotwGamePath>
+    <TotkGamePath>
+    </TotkGamePath>
+    <SpecularCubeMapPath>
+    </SpecularCubeMapPath>
+    <DiffuseCubeMapPath>
+    </DiffuseCubeMapPath>
+    <PkSwShGamePath>
+    </PkSwShGamePath>
+  </PATHS>
+  <SWITCH_KEY_PATHS>
+    <TitleKeys>C:\Users\lumin\AppData\Roaming\yuzu\keys\title.keys</TitleKeys>
+    <ProdKeys>C:\Users\lumin\AppData\Roaming\yuzu\keys\prod.keys</ProdKeys>
+  </SWITCH_KEY_PATHS>
+</TOOLCONFIG>

@@ -1,0 +1,2 @@
+Dimension start "3" blanc = 189 X 222
+Dimension "finish" noir = 1035 X 222

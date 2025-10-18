@@ -1,0 +1,72 @@
+Name: PupilAnim_fts
+Path: 
+Loop: false
+FrameCount: 360
+MaterialAnimConfigs:
+  - Name: m_PupilL
+    TexturePatternInfos: []
+    ParamInfos:
+      - Name: tex_mtx0
+        IsConstant: true
+        Constants:
+          - Offset: Mode
+            Value: 1.40129846E-45
+          - Offset: Scale X
+            Value: 1.0
+          - Offset: Scale Y
+            Value: 1.0
+        CurveData:
+          - KeyFrames:
+              0: 0.621516883
+              48: 0.542559683
+              101: -0.115416631
+              167: -0.273330927
+              235: -0.233852372
+              281: 0.154353678
+              319: 0.575458527
+              360: 0.621516883
+            Offset: Translate X
+          - KeyFrames:
+              0: -0.00139573961
+              47: -0.294175506
+              109: -0.269777179
+              155: -0.20634155
+              211: 0.271865368
+              278: 0.41825521
+              320: 0.340180635
+              360: -0.00139573961
+            Offset: Translate Y
+  - Name: m_PupilR
+    TexturePatternInfos: []
+    ParamInfos:
+      - Name: tex_mtx0
+        IsConstant: true
+        Constants:
+          - Offset: Mode
+            Value: 1.40129846E-45
+          - Offset: Scale X
+            Value: 1.0
+          - Offset: Scale Y
+            Value: 1.0
+        CurveData:
+          - KeyFrames:
+              0: 0.275388449
+              83: 0.0587152839
+              111: -0.290369272
+              138: -0.56722939
+              218: -0.583279252
+              243: -0.378643513
+              274: 0.0346404761
+              334: 0.271375984
+              360: 0.275388449
+            Offset: Translate X
+          - KeyFrames:
+              0: -0.00177443027
+              47: -0.295370251
+              109: -0.266010672
+              155: -0.207291514
+              211: 0.272248328
+              278: 0.419046253
+              320: 0.340754032
+              360: -0.00177443027
+            Offset: Translate Y

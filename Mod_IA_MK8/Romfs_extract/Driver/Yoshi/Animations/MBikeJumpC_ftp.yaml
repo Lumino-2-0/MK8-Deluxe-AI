@@ -1,0 +1,23 @@
+Name: MBikeJumpC_ftp
+Path: 
+Loop: false
+FrameCount: 47
+MaterialAnimConfigs:
+  - Name: m_Eye
+    TexturePatternInfos:
+      - Name: _a0
+        IsConstant: true
+        ConstantValue:
+          Texture: YoshiEye_Alb.6
+        CurveData: null
+      - Name: _n0
+        IsConstant: true
+        ConstantValue:
+          Texture: YoshiEye_Nrm.6
+        CurveData: null
+      - Name: _s0
+        IsConstant: true
+        ConstantValue:
+          Texture: YoshiEye_Spm.6
+        CurveData: null
+    ParamInfos: []

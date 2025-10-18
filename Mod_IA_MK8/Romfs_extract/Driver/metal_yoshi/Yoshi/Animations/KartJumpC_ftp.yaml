@@ -1,0 +1,32 @@
+Name: KartJumpC_ftp
+Path: 
+Loop: false
+FrameCount: 50
+MaterialAnimConfigs:
+  - Name: m_Eye
+    TexturePatternInfos:
+      - Name: _a0
+        IsConstant: false
+        ConstantValue: null
+        CurveData:
+          KeyFrames:
+            0: YoshiEye_Alb.3
+            21: YoshiEye_Alb.0
+            23: YoshiEye_Alb.4
+      - Name: _n0
+        IsConstant: false
+        ConstantValue: null
+        CurveData:
+          KeyFrames:
+            0: YoshiEye_Nrm.3
+            21: YoshiEye_Nrm.0
+            23: YoshiEye_Nrm.4
+      - Name: _s0
+        IsConstant: false
+        ConstantValue: null
+        CurveData:
+          KeyFrames:
+            0: YoshiEye_Spm.3
+            21: YoshiEye_Spm.0
+            23: YoshiEye_Spm.4
+    ParamInfos: []

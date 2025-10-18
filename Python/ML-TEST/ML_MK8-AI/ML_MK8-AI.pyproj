@@ -1,0 +1,108 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>905163c1-ad28-4a43-9877-0a587e834e2b</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>ML_MK8_AI.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>ML_MK8-AI</Name>
+    <RootNamespace>ML_MK8-AI</RootNamespace>
+    <InterpreterId>CondaEnv|CondaEnv|CondaEnv_MK8</InterpreterId>
+    <TestFramework>Pytest</TestFramework>
+    <IsWindowsApplication>False</IsWindowsApplication>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterArguments>
+    </InterpreterArguments>
+    <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
+    <SuppressPackageInstallationPrompt>True</SuppressPackageInstallationPrompt>
+    <SuppressEnvironmentCreationPrompt>True</SuppressEnvironmentCreationPrompt>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Bad\Hook\capture_screen.py" />
+    <Compile Include="Bad\Hook\TAS_Config.py" />
+    <Compile Include="Bad\model.py" />
+    <Compile Include="VJoy_Checker.py" />
+    <Compile Include="Hook\ScreenHooker.py" />
+    <Compile Include="Hook\utils.py" />
+    <Compile Include="Jouer.py" />
+    <Compile Include="OldTest\CSV_Builder.py" />
+    <Compile Include="ML_MK8_AI.py" />
+    <Compile Include="OldTest\predict.py" />
+    <Compile Include="OldTest\Test_PyTorch-GPU.py" />
+    <Compile Include="OldTest\train.py" />
+    <Compile Include="Bad\predict_AS.py" />
+    <Compile Include="Bad\predict_RT.py" />
+    <Compile Include="predict_model.py" />
+    <Compile Include="Projet_YT\TensorKart-master\play.py" />
+    <Compile Include="Projet_YT\TensorKart-master\record.py" />
+    <Compile Include="Projet_YT\TensorKart-master\train.py" />
+    <Compile Include="Projet_YT\TensorKart-master\utils.py" />
+    <Compile Include="Bad\test_predict_on_training.py" />
+    <Compile Include="Bad\train_AS.py" />
+    <Compile Include="Bad\train_RT.py" />
+    <Compile Include="Bad\train_RT_Live.py" />
+    <Compile Include="Bad\utils.py" />
+    <Compile Include="Bad\virtual_controller.py" />
+    <Compile Include="ScreenHooker.py" />
+    <Compile Include="train_model.py" />
+    <Compile Include="utils.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="best_model.h5" />
+    <Content Include="Conversation\Conversation MK8 AI.html" />
+    <Content Include="Bad\log.txt" />
+    <Content Include="Bad\log_RT.txt" />
+    <Content Include="Bad\model.pth" />
+    <Content Include="final_model.h5" />
+    <Content Include="OldTest\colors.csv" />
+    <Content Include="Bad\policy_rt_model.pth" />
+    <Content Include="Projet_YT\TensorKart-master\.gitignore" />
+    <Content Include="Projet_YT\TensorKart-master\data\.keep" />
+    <Content Include="Projet_YT\TensorKart-master\LICENSE.txt" />
+    <Content Include="Projet_YT\TensorKart-master\README.md" />
+    <Content Include="Projet_YT\TensorKart-master\requirements.txt" />
+    <Content Include="Projet_YT\TensorKart-master\samples\.keep" />
+    <Content Include="Projet_YT\TensorKart-master\screenshots\luigi_raceway.png" />
+    <Content Include="Projet_YT\TensorKart-master\screenshots\record_setup.png" />
+    <Content Include="requirements.txt" />
+    <Content Include="Bad\run_log.txt" />
+    <Content Include="Bad\training_log.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Bad\Hook\" />
+    <Folder Include="Hook\" />
+    <Folder Include="Conversation\" />
+    <Folder Include="Bad\" />
+    <Folder Include="Projet_YT\" />
+    <Folder Include="Projet_YT\TensorKart-master\" />
+    <Folder Include="Projet_YT\TensorKart-master\data\" />
+    <Folder Include="Projet_YT\TensorKart-master\samples\" />
+    <Folder Include="Projet_YT\TensorKart-master\screenshots\" />
+    <Folder Include="TEST_PREDICT\" />
+    <Folder Include="OldTest\" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="CondaEnv|CondaEnv|CondaEnv_MK8" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>

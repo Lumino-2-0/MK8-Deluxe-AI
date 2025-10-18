@@ -1,0 +1,6 @@
+C:\Users\lumin\AppData\Roaming\yuzu\load\0100152000022000\MK8_AI\Romfs\UI\EUfr\race.sarc
+C:\Users\lumin\AppData\Roaming\yuzu\load\0100152000022000\MK8_AI\Romfs\UI\EUfr\race\tc_RT_Finish_Msk_EUfr^s.bntx
+C:\Users\lumin\AppData\Roaming\yuzu\load\0100152000022000\MK8_AI\Romfs\UI\EUfr\race\tc_RT_Finish_EUfr^h.bntx
+C:\Users\lumin\AppData\Roaming\yuzu\load\0100152000022000\MK8_AI\Romfs\UI\cmn\race.sarc
+C:\Users\lumin\Desktop\MK_AI_Proj\Mod_IA_MK8\Romfs\UI\EUfr\race\tc_RT_Finish_EUfr^h.bntx
+C:\SWITCH_OS\Mario Kart 8 Deluxe [0100152000022000]+[v1.7.2] (nsw2u)_patched.xci
