@@ -54,10 +54,6 @@ MK_AI_Proj/
 - Pyvjoy (for virtual gamepad)  
 - PIL (Pillow)
 
-Install dependencies:  
-```
-pip install -r requirements.txt
-```
 
 ---
 
