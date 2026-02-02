@@ -73,4 +73,4 @@ This project is licensed under the MIT License. See LICENSE for details.
 
 ## Notes
 
-This is an experimental project made for fun and AI learning purposes — it is not affiliated with Nintendo or Yuzu.
+This is an experimental project made for fun and AI learning purposes - it is not affiliated with Nintendo or Yuzu.
